@@ -24,5 +24,8 @@ var b = 20;
 var b = 21;  //no error for redeclaring in var
 
 const PI = 3.14;
-PI = 2;
+//PI = 2;
 console.log(PI);  // error - Uncaught TypeError: Assignment to constant variable
+
+variableWithoutLetOrVar = "Bilal";
+console.log(variableWithoutLetOrVar); //outputs Bilal

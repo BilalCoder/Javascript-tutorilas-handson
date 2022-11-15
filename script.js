@@ -29,3 +29,19 @@ console.log(PI);  // error - Uncaught TypeError: Assignment to constant variable
 
 variableWithoutLetOrVar = "Bilal";
 console.log(variableWithoutLetOrVar); //outputs Bilal
+
+//Normal vs string literals
+
+console.log("He is a good boy");
+let john = "John";
+console.log(john +' is a good boy');
+console.log(john + '\n\
+is \n\
+good \n\
+boy');
+
+console.log(`${john} is a good boy`);
+console.log(`${john} 
+is 
+good 
+boy`);

@@ -45,3 +45,20 @@ console.log(`${john}
 is 
 good 
 boy`);
+
+
+
+//Truthy and falsy values
+
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean({}));
+console.log(Boolean(john));
+console.log(Boolean(-15));
+
+// == vs  ===
+console.log("== vs ===");
+console.log('1' == 1);   // true
+console.log('1' === 1);  //false
+console.log('1' == '1'); // true
+console.log('1' === '1');// true
